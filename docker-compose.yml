@@ -9,7 +9,7 @@ services:
     environment:
       XDEBUG_CONFIG: remote_host=host.docker.internal
   db:
-    image: mysql
+    image: mysql:latest
     ports:
       - "3306:80"
     environment:
